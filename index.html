@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b36">
+  <meta name="description" content="Heathen Haven — a free port for stories, sound, symbols, and work made together.">
+  <title>Heathen Haven — The only free port left</title>
+  <link rel="icon" href="assets/harbor-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Heathen Haven, home">
+      <img src="assets/harbor-mark.svg" width="38" height="38" alt="">
+      <span>HEATHEN <b>HAVEN</b></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#work">The shelves</a>
+      <a href="#why-haven">Why a haven</a>
+      <a href="#gather">Gather here</a>
+      <a class="nav-signal" href="#work">Explore the harbor <span aria-hidden="true">↘</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal-dot"></span> A WORK IN PROGRESS · OPEN WATER AHEAD</p>
+        <h1 id="hero-title">The only<br><em>free port</em><br>left.</h1>
+        <p class="hero-lede">A place to bring the things that don’t fit in one box: stories, songs, symbols, and the good we make together.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#work">Find your way in <span aria-hidden="true">↓</span></a>
+          <span class="edition">EST. IN POSSIBILITY<br><b>NO TOLL AT THE GATE</b></span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a lighthouse overlooking a quiet harbor at night" role="img">
+        <div class="chart-label label-north">N&nbsp; 47°<br>W&nbsp; 117°</div>
+        <div class="chart-label label-depth">DEPTH UNKNOWN<br>ANCHOR ANYWAY</div>
+        <svg class="harbor-scene" viewBox="0 0 720 650" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="sky" x1="359" y1="0" x2="359" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#193F4A"/><stop offset="1" stop-color="#102B36"/></linearGradient>
+            <linearGradient id="beam" x1="356" y1="105" x2="690" y2="275" gradientUnits="userSpaceOnUse"><stop stop-color="#EDB96B" stop-opacity=".38"/><stop offset="1" stop-color="#EDB96B" stop-opacity="0"/></linearGradient>
+            <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#D9CFAF" fill-opacity=".26"/></pattern>
+          </defs>
+          <rect x="0" y="0" width="720" height="650" rx="360" fill="url(#sky)"/>
+          <rect x="0" y="0" width="720" height="650" rx="360" fill="url(#dots)"/>
+          <circle cx="532" cy="143" r="45" stroke="#DDB578" stroke-opacity=".42"/>
+          <circle cx="532" cy="143" r="3" fill="#F1D6A5"/>
+          <path d="M355 116L698 281H355V116Z" fill="url(#beam)"/>
+          <path d="M56 416C142 390 205 405 274 416C347 428 422 389 495 405C577 424 641 404 720 386V650H0V439C20 432 38 424 56 416Z" fill="#163B47"/>
+          <path d="M0 486C87 464 133 479 215 485C302 492 381 460 462 475C552 492 637 463 720 451" stroke="#4C7D7B" stroke-opacity=".55" stroke-width="2"/>
+          <path d="M0 541C97 520 158 546 240 541C324 535 395 513 486 531C561 546 640 521 720 515" stroke="#4C7D7B" stroke-opacity=".34" stroke-width="2"/>
+          <path d="M0 596C90 579 165 600 248 594C331 589 404 570 496 590C582 608 642 580 720 575" stroke="#4C7D7B" stroke-opacity=".24" stroke-width="2"/>
+          <path d="M275 426L312 382L351 417L383 384L423 418L462 391L496 419V470H267V426H275Z" fill="#0D2530"/>
+          <path d="M319 395L341 358L365 395V419H319V395Z" fill="#0D2530"/>
+          <path d="M337 356H368L361 331H344L337 356Z" fill="#D9C49A"/>
+          <path d="M344 330V285H362V330" fill="#F0E7D2"/>
+          <path d="M338 286H369L362 272H344L338 286Z" fill="#D9C49A"/>
+          <path d="M341 271H365V244H341V271Z" fill="#E9DFCA"/>
+          <path d="M337 245H369L363 232H343L337 245Z" fill="#D9C49A"/>
+          <path d="M343 232V208H363V232" fill="#F0E7D2"/>
+          <path d="M338 208H368L360 193H346L338 208Z" fill="#D9C49A"/>
+          <rect x="341" y="190" width="23" height="7" rx="2" fill="#E9DFCA"/>
+          <path d="M344 191V172H362V191" fill="#F0E7D2"/>
+          <path d="M341 174H365L360 161H346L341 174Z" fill="#D9C49A"/>
+          <path d="M348 161V146H358V161" fill="#E9DFCA"/>
+          <path d="M345 147H361L357 135H349L345 147Z" fill="#D9C49A"/>
+          <path d="M350 135V117H356V135" fill="#E9DFCA"/>
+          <path d="M347 117L353 101L359 117H347Z" fill="#E9DFCA"/>
+          <rect x="347" y="211" width="10" height="12" rx="5" fill="#F2CA7B"/>
+          <rect x="347" y="249" width="10" height="12" rx="5" fill="#F2CA7B"/>
+          <rect x="348" y="293" width="9" height="12" rx="4.5" fill="#F2CA7B"/>
+          <path d="M109 548H211M133 548L160 515L187 548M160 515V572M134 564H186" stroke="#D9C49A" stroke-opacity=".58" stroke-width="2"/>
+          <path d="M157 519L160 495L163 519" fill="#D9C49A" fill-opacity=".7"/>
+          <circle cx="133" cy="145" r="2" fill="#EADDBD"/><circle cx="232" cy="92" r="1.5" fill="#EADDBD"/><circle cx="604" cy="246" r="2" fill="#EADDBD"/><circle cx="483" cy="71" r="1.5" fill="#EADDBD"/>
+          <path d="M64 335C117 322 147 326 183 337" stroke="#D9C49A" stroke-opacity=".25" stroke-dasharray="4 7"/>
+          <text x="72" y="315" fill="#D9C49A" fill-opacity=".65" font-family="monospace" font-size="10" letter-spacing="2">YOU ARE HERE</text>
+        </svg>
+        <div class="art-caption"><span>FIG. 01</span> A LIGHT LEFT ON FOR WHOEVER COMES NEXT</div>
+      </div>
+      <div class="hero-bottomline"><span>NO PASSPORT REQUIRED</span><span>◎&nbsp; OPEN TO THE UNFINISHED</span><span>LAT. NOT YET SET</span></div>
+    </section>
+
+    <section class="manifesto" id="why-haven">
+      <p class="eyebrow dark-eyebrow">01 / THE IDEA</p>
+      <div class="manifesto-body">
+        <h2>Somewhere to<br>put the <em>whole thing.</em></h2>
+        <div class="manifesto-note">
+          <p>Heathen Haven starts with a simple promise: there’s room here for the work while it’s still becoming. A harbor can be shelter, a meeting point, and a place to set out from again.</p>
+          <p class="note-small">This is a prototype. The purpose, voice, and map are yours to shape.</p>
+        </div>
+      </div>
+      <div class="tide-rule"><span>WHAT COMES IN</span><span>WHAT GOES OUT</span><span>WHAT WE MAKE TOGETHER</span></div>
+    </section>
+
+    <section class="work-section" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="signal-dot"></span> 02 / THE SHELVES</p><h2>Choose a <em>current.</em></h2></div>
+        <p class="section-aside">Four places to begin.<br>Nothing here is pretending to be finished.</p>
+      </div>
+      <div class="shelf-grid">
+        <article class="shelf-card shelf-writing">
+          <div class="card-top"><span>01 — WORDS</span><span class="card-glyph" aria-hidden="true">¶</span></div>
+          <div class="card-illustration paper-lines" aria-hidden="true"><span>THE PAGE IS<br>STILL OPEN</span><i>✳</i></div>
+          <h3>Writing &amp; worlds</h3>
+          <p>Stories, codices, drafts, and the other maps made out of words.</p>
+          <div class="seed-item"><span>PROJECT SEED</span><b>Fire in the Cracks</b><small>Title supplied by the owner · content to come</small></div>
+          <a class="text-link" href="#starter">See the starter map <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="shelf-card shelf-sound">
+          <div class="card-top"><span>02 — SOUND</span><span class="card-glyph" aria-hidden="true">♫</span></div>
+          <div class="card-illustration sound-waves" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <h3>Music &amp; rhythm</h3>
+          <p>Songs, beats, drum language, and sounds that need a place to land.</p>
+          <div class="seed-item"><span>PROJECT SEED</span><b>VΞRSE.ONE</b><small>Artist name supplied by the owner · tracks to come</small></div>
+          <a class="text-link" href="#starter">See the starter map <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="shelf-card shelf-marks">
+          <div class="card-top"><span>03 — MARKS</span><span class="card-glyph" aria-hidden="true">✳</span></div>
+          <div class="card-illustration compass" aria-hidden="true"><span>✳</span><i>N</i><b>E</b><em>S</em><small>W</small></div>
+          <h3>Art &amp; symbols</h3>
+          <p>Visual experiments, sigils, symbols, and the stories attached to them.</p>
+          <div class="seed-item"><span>PLACEHOLDER</span><b>Artwork archive</b><small>Images, notes, and histories to be added</small></div>
+          <a class="text-link" href="#starter">See the starter map <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="shelf-card shelf-gather">
+          <div class="card-top"><span>04 — PEOPLE</span><span class="card-glyph" aria-hidden="true">⌂</span></div>
+          <div class="card-illustration gathering" aria-hidden="true"><span>●</span><span>●</span><span>●</span><i>✦</i><b>◡</b></div>
+          <h3>Community &amp; care</h3>
+          <p>Ideas for making something useful, welcoming, and shared.</p>
+          <div class="seed-item"><span>PROJECT SEED</span><b>One Family Love</b><small>Working idea supplied by the owner · plans to come</small></div>
+          <a class="text-link" href="#starter">See the starter map <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="starter-section" id="starter">
+      <div class="starter-map" aria-hidden="true"><span class="map-ring ring-one"></span><span class="map-ring ring-two"></span><span class="map-point">HH</span><i class="map-cross cross-a">+</i><i class="map-cross cross-b">+</i><i class="map-cross cross-c">+</i><span class="map-route"></span><small>N</small></div>
+      <div class="starter-copy">
+        <p class="eyebrow dark-eyebrow">03 / THE FIRST CHART</p>
+        <h2>Start with a<br><em>blank map.</em></h2>
+        <p>The names here are signposts, not finished exhibits. Bring in a real excerpt, track, image, or project note when you’re ready. Until then, each shelf stays marked as a placeholder.</p>
+        <a class="button button-dark" href="README.md">Read the build notes <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="gather-section" id="gather">
+      <div class="gather-inner">
+        <p class="eyebrow"><span class="signal-dot"></span> 04 / OPEN WATER</p>
+        <h2>There’s a light<br>on <em>for you.</em></h2>
+        <p class="gather-copy">A haven only means something when people can find it. The doors are open; the shape of the gathering is still yours to decide.</p>
+        <a class="button button-light" href="#top">Return to the harbor <span aria-hidden="true">↑</span></a>
+        <span class="gather-stamp" aria-hidden="true">HH<br><i>✳</i><br>OPEN</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><img src="assets/harbor-mark.svg" width="30" height="30" alt=""><span>HEATHEN <b>HAVEN</b></span></a>
+    <p>THE ONLY FREE PORT LEFT <span>·</span> A WORK IN PROGRESS</p>
+    <a href="#top" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+</body>
+</html>
